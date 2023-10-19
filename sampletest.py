@@ -2,6 +2,7 @@
 # Modifications needed for the older Python 2 are found in comments.
 
 # Returns index of x in arr if present, else -1
+name = "thomas"
 def binary_search(arr, low, high, x):
 
 	# Check base case
@@ -27,6 +28,9 @@ def binary_search(arr, low, high, x):
 		return -1
 
 # Test array
+arr = [ 2, 3, 4, 10, 40 ]
+x = 10
+
 arr = [ 2, 3, 4, 10, 40 ]
 x = 10
 
